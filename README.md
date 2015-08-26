@@ -1,0 +1,2 @@
+# clearAdToolOnChrome
+Chrome浏览器上清除广告的插件

@@ -1,0 +1,21 @@
+{
+  "name": "清除页面广告",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "清除页面广告的chrome插件",
+  "permissions": [
+      "http://*/"
+  ],
+  "icons": {
+      "16": "img/clock_red.png",
+      "128": "img/clock_red.png"
+  },
+  "browser_action": { //插件的图标和点击图标时显示的内容
+      "default_icon": "img/clock_red.png",
+      "default_popup": "popup.html"
+  },
+  "content_scripts": [{
+      "matches": ["http://*/", "https://*/", "http://*/*", "https://*/*"],
+      "js": ["js/jquery.js", "js/clearAdScript.js"]
+  }]
+}

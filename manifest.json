@@ -7,11 +7,11 @@
       "http://*/"
   ],
   "icons": {
-      "16": "img/clock_red.png",
-      "128": "img/clock_red.png"
+      "16": "img/clearAdCoin.png",
+      "128": "img/clearAdCoin.png"
   },
   "browser_action": { //插件的图标和点击图标时显示的内容
-      "default_icon": "img/clock_red.png",
+      "default_icon": "img/clearAdCoin.png",
       "default_popup": "popup.html"
   },
   "content_scripts": [{
